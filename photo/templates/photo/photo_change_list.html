@@ -5,18 +5,18 @@
 {% block content %}
 <div id="content">
 
-    <h1>Photo Change - {{user}}</h1>
-    
+    <h1>사진 변경 - {{user}}</h1>
+
     <table class="change-list">
         <tr>
-            <th>Album</th>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Owner</th>
-            <th>Update</th>
-            <th>Delete</th>
+            <th>앨범</th>
+            <th>제목</th>
+            <th>설명</th>
+            <th>작성자</th>
+            <th>업데이트</th>
+            <th>삭제</th>
         </tr>
-    
+
         {% for item in object_list %}
         <tr>
             <td>{{ item.album }}</td>

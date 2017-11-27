@@ -5,7 +5,7 @@
 {% block content %}
 <div id="content">
 
-<h1>{% now "N d, Y" %}까지의 포스트 Archive</h1>
+<h1>Post Archives until {% now "N d, Y" %}</h1>
 <ul>
     {% for date in date_list %}
     <li style="display: inline;">
@@ -15,12 +15,7 @@
 <br/>
 
 <div>
-    <ul>
-        {% for post in object_list %}
-        <li>{{ post.modify_date|date:"Y-m-d" }}&nbsp;&nbsp;&nbsp;
-        <a href="{{ post.get_absolute_url }}"><strong>{{ post.title }}</strong></a></li>
-        {% endfor %}
-    </ul>
+    {% include "blog/post_archive_snippet.html" %}
 </div>
 
 </div>

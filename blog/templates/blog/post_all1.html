@@ -1,3 +1,11 @@
+<head>
+<style>
+body {
+  margin-top: 50px;
+}
+
+
+</style>
 {% extends "base.html" %}
 
 {% block title %}post_all.html{% endblock %}
@@ -5,8 +13,7 @@
 {% block content %}
 <div id="content">
 
-{# <h1>Blog List - test</h1> #}
-<h1>블로그 목록 - contains the word '{{ SearchWord }}'</h1>
+<h1>블로그 목록</h1>
 
 {% for post in posts %}
     <h2><a href='{{ post.get_absolute_url }}'>{{ post.title }}</a></h2>
@@ -22,7 +29,7 @@
             <a href="?page={{ page_obj.previous_page_number }}">이전 페이지</a>
         {% endif %}
 
-         {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}
+        페이지 {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}
 
         {% if page_obj.has_next %}
             <a href="?page={{ page_obj.next_page_number }}">다음 페이지</a>
@@ -33,3 +40,6 @@
 
 </div>
 {% endblock %}
+
+
+</head>

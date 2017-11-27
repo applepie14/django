@@ -9,7 +9,7 @@
 <div id="content">
 
     <h2>{{ object.title }}</h2>
-    
+
     <table class="photo-detail">
     <tr>
     <td>
@@ -17,10 +17,10 @@
         <img style="max-width:100%" src="{{ object.image.url }}" />
         </a>
     </td>
-    
+
     <td>
     <ul>
-        <li>Photo Description</li>
+        <li>사진 설명</li>
         {% if object.description %}<p>{{ object.description|linebreaks }}</p>
         {% else %}<p>(blank)</p>{% endif %}
         <li>Date Uploaded</li>

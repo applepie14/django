@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}home.html{% endblock %}
+{% block title %}1조 장고블로그{% endblock %}
 
 {% load staticfiles %}
 {% block extrastyle %}{% static "css/home1.css" %}{% endblock %}
@@ -10,34 +10,34 @@
 <div id="content_home">
 
     <div id="homeimg">
-        <a href="/"><img src="{% static 'img/django-actor-big.jpg' %}" style="height:256px;"/></a>
+        <a href="/"><img src="{% static 'img/harry.gif' %}" style="height:256px;"/></a>
         <h4 style="margin: 0;">1조 블로그입니다.</h4>
     </div>
 
     <hr style="margin: 5px 0;">
 
-    <h2>Select Application</h2>
+    <h2>애플리케이션 고르기</h2>
 
     <table id="applist">
         <tr>
-        <td><b><i><a href="{% url 'bookmark:index' %}">Bookmark</a></i><b></td>
-        <td>You can store your own bookmarks by Bookmark application. It's also possible to update or delete your bookmarks.</td>
-        <td class="Edit"><i><a href="{% url 'bookmark:add' %}">Add</a></i></td>
-        <td class="Edit"><i><a href="{% url 'bookmark:change' %}">Change</a></i></td>
+        <td><b><i><a href="{% url 'bookmark:index' %}">북마크</a></i><b></td>
+        <td>당신은 자신만의 북마크를 저장할 수 있습니다. 또한 업데이트, 삭제도 가능합니다.</td>
+        <td class="Edit"><i><a href="{% url 'bookmark:add' %}">추가</a></i></td>
+        <td class="Edit"><i><a href="{% url 'bookmark:change' %}">변경</a></i></td>
         </tr>
 
         <tr>
-        <td><b><i><a href="{% url 'blog:index' %}">Blog</a></i><b></td>
-        <td>This application makes it possible to log daily events or write your own interests such as hobbies, techniques, etc.</td>
-        <td class="Edit"><i><a href="{% url 'blog:add' %}">Add</a></i></td>
-        <td class="Edit"><i><a href="{% url 'blog:change' %}">Change</a></i></td>
+        <td><b><i><a href="{% url 'blog:index' %}">블로그</a></i><b></td>
+        <td>T이 응용 프로그램은 일상적인 이벤트를 기록하거나 취미나 기법 등의 관심사를 작성할 수 있게 해 줍니다.</td>
+        <td class="Edit"><i><a href="{% url 'blog:add' %}">추가</a></i></td>
+        <td class="Edit"><i><a href="{% url 'blog:change' %}">변경</a></i></td>
         </tr>
 
         <tr>
-        <td><b><i><a href="{% url 'photo:index' %}">Photo</a></i><b></td>
-        <td>You can upload your own photos through this application. If you delete an album, all photos within it will be deleted.</td>
-        <td class="Edit"><i><a href="{% url 'photo:album_add' %}">Add</a></i></td>
-        <td class="Edit"><i><a href="{% url 'photo:album_change' %}">Change</a></i></td>
+        <td><b><i><a href="{% url 'photo:index' %}">사진</a></i><b></td>
+        <td>이 응용 프로그램을 통해 자신만의 사진을 업로드할 수 있습니다. 앨범을 삭제하면 해당 앨범의 모든 사진이 삭제됩니다.</td>
+        <td class="Edit"><i><a href="{% url 'photo:album_add' %}">추가</a></i></td>
+        <td class="Edit"><i><a href="{% url 'photo:album_change' %}">변경</a></i></td>
         </tr>
     </table>
 </div>
@@ -45,6 +45,6 @@
 
 {% block footer %}
 <div id="footer">
-    &copy; shkim 2016
+    &copy; 1조 블로그( 문혜리, 조혜영, 정현진 )
 </div>
 {% endblock footer %}
