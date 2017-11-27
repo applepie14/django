@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d001dd8-ea14-468b-b827-2f61c93aa8f0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/blog/post_all.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/w_shw.iml" afterPath="$PROJECT_DIR$/.idea/w_shw.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_archive.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_archive_day.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_day.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_archive_month.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_month.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_archive_year.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_archive_year.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_change_list.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_change_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_confirm_delete.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_confirm_delete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_form.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_search.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_test.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/tagging/tagging_cloud.html" afterPath="$PROJECT_DIR$/blog/templates/tagging/tagging_cloud.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_change_list.html" afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_change_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_confirm_delete.html" afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_confirm_delete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_form.html" afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html" afterPath="$PROJECT_DIR$/bookmark/templates/bookmark/bookmark_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/templates/photo/album_change_list.html" afterPath="$PROJECT_DIR$/photo/templates/photo/album_change_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/templates/photo/album_confirm_delete.html" afterPath="$PROJECT_DIR$/photo/templates/photo/album_confirm_delete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/templates/photo/album_form.html" afterPath="$PROJECT_DIR$/photo/templates/photo/album_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/templates/photo/photo_change_list.html" afterPath="$PROJECT_DIR$/photo/templates/photo/photo_change_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/templates/photo/photo_confirm_delete.html" afterPath="$PROJECT_DIR$/photo/templates/photo/photo_confirm_delete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/templates/photo/photo_detail.html" afterPath="$PROJECT_DIR$/photo/templates/photo/photo_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photo/templates/photo/photo_form.html" afterPath="$PROJECT_DIR$/photo/templates/photo/photo_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" afterPath="$PROJECT_DIR$/polls/templates/polls/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/polls/templates/polls/results.html" afterPath="$PROJECT_DIR$/polls/templates/polls/results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/registration/logged_out.html" afterPath="$PROJECT_DIR$/templates/registration/logged_out.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/registration/login.html" afterPath="$PROJECT_DIR$/templates/registration/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/registration/password_change_done.html" afterPath="$PROJECT_DIR$/templates/registration/password_change_done.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/registration/password_change_form.html" afterPath="$PROJECT_DIR$/templates/registration/password_change_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/registration/register.html" afterPath="$PROJECT_DIR$/templates/registration/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/registration/register_done.html" afterPath="$PROJECT_DIR$/templates/registration/register_done.html" />
-    </list>
+    <list default="true" id="9d001dd8-ea14-468b-b827-2f61c93aa8f0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +14,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -95,8 +67,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,6 +78,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,9 +360,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://F:/w_shw/mysite/settings.py" />
     <entry file="file://F:/w_shw/mysite/urls.py" />
     <entry file="file://$PROJECT_DIR$/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
